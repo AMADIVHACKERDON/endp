@@ -25,9 +25,9 @@ app.use(core())
 
 app.get('^/', (req,res) => {
     res.json({
-        slack_email: "victory.amadi@stu.cu.edu.ng",
-        timestamp: new Date().toISOString(),
-        github_repo: "https://github.com/AMADIVHACKERDON?tab=repositories"
+        email: "victory.amadi@stu.cu.edu.ng",
+        current_datetime: new Date().toISOString(),
+        github_url: "https://github.com/AMADIVHACKERDON?tab=repositories"
     })
     res.status(200);
 })
