@@ -27,7 +27,7 @@ app.get('^/', (req,res) => {
     res.json({
         email: "victory.amadi@stu.cu.edu.ng",
         current_datetime: new Date().toISOString(),
-        github_url: "https://github.com/AMADIVHACKERDON?tab=repositories"
+        github_url: "https://github.com/AMADIVHACKERDON/endp"
     })
     res.status(200);
 })
