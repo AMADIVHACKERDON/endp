@@ -1,0 +1,22 @@
+{
+  "name": "htmlapi",
+  "version": "1.0.0",
+  "main": "advent.js",
+  "scripts": {
+    "start": "node cors.js",
+    "dev": "nodemon cors.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.2",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.0.5"
+  },
+  "description": ""
+}
